@@ -24,11 +24,11 @@
 #include <sys/time.h>
 #include <stdint.h>
 typedef unsigned long long u64;
-u64 timestamp(){
-  struct timeval tv;
-  gettimeofday(&tv,NULL);
-  return tv.tv_sec * 1e6 + tv.tv_usec;
-}
+// u64 timestamp(){
+//   struct timeval tv;
+//   gettimeofday(&tv,NULL);
+//   return tv.tv_sec * 1e6 + tv.tv_usec;
+// }
 
 
 /* only native compiler supports -run */
